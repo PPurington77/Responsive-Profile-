@@ -1,0 +1,52 @@
+@media only screen and (max-width: 480px){
+    /* we will set these stylings only if the device is a screen with a width of 480px or less */
+    #headerImg {
+        display: none;
+    }
+    #nav-links {
+        display: none;
+    }
+    h1 {
+        width: 100%;
+    }
+
+    #topBoxPic {
+        display: block;
+    }
+
+    #topBoxP {
+        display: block;
+    }
+
+    .innerEduBox {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width: 1023px) {
+    #nav-links li {
+        width: 100%;
+    }
+
+    #headerImg {
+        display: none;
+    }
+    h1 {
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .innerEduBox {
+        display: block;
+    }
+
+    #topBoxPic, #topBoxP {
+        display: block;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+
+}
